@@ -1,99 +1,74 @@
-# Timetable-Management-System
-The Cashier App is a comprehensive software solution designed to simplify point-of-sale operations, inventory management, and sales reporting for retail businesses. This application offers an intuitive user interface and a range of features to streamline the checkout process, track inventory, and generate sales reports. This README provides an overview of the application's key features, installation instructions, usage guide, and contribution details.
+# Timetable Management System
 
-Features
-1. Point of Sale (POS)
-User-Friendly Interface: The application offers an easy-to-use interface for cashiers to efficiently process customer orders.
+Welcome to the Timetable Management System project! This system allows you to efficiently manage timetables for teachers, subjects, and classes or batches. You can schedule classes, make-up lectures, and view timetables for both teachers and classes.
 
-Product Search: Cashiers can quickly search for products by name, category, or barcode, making it convenient to find and add items to the cart.
+## Features
 
-Custom Discounts: Apply custom discounts and promotions to orders as needed.
+### 1. Add Teachers
 
-Multiple Payment Methods: Accept various payment methods, including cash, credit cards, and digital wallets.
+- Add teachers to the system with their names and the subjects they teach. Teachers can be assigned to one or more subjects, enabling subject-specific scheduling.
 
-Receipt Generation: Automatically generate digital or printed receipts for customers.
+### 2. Add Subjects
 
-2. Inventory Management
-Product Database: Maintain a database of all available products, including details like name, price, and quantity.
+- Add subjects to the system, specifying the number of lectures per week and slots per day. This information is crucial for scheduling classes.
 
-Inventory Tracking: Monitor stock levels in real-time to prevent stockouts and streamline reordering.
+### 3. Set Teacher Off Days
 
-Barcode Scanning: Use barcode scanners to simplify product management and stock updates.
+- Set off days for teachers to ensure they are not scheduled for classes on specific days. This feature helps in managing teacher availability.
 
-Product Categories: Organize products into categories for better inventory organization.
+### 4. Add Batches
 
-3. Sales Reporting
-Sales History: Keep a record of all sales transactions, allowing you to review past sales data.
+- Add class batches or sections to the system, along with the subjects offered to each batch. This step is essential for class-wise timetable creation.
 
-Sales Analytics: Generate reports and analytics to gain insights into sales performance and customer preferences.
+### 5. Move Class
 
-Export Reports: Export sales reports in various formats (e.g., CSV, PDF) for further analysis.
+- Move classes between different days and time slots. You can choose the subject, day, and time slot to reschedule classes.
 
-4. User Management
-User Roles: Assign different user roles (e.g., cashier, manager) with varying levels of access to the application.
+### 6. Schedule a Make-up Lecture
 
-Login Security: Implement user authentication and secure login mechanisms to protect sensitive data.
+- Schedule make-up lectures for classes that may have missed regular sessions. This feature helps in managing missed classes effectively.
 
-Installation
-To set up and run the Cashier App on your system, follow these steps:
+### 7. Display Class
 
-Clone the Repository:
+- View the timetable for a specific class or batch. Select the batch from the list, and the timetable will be displayed.
+
+### 8. Display Teacher
+
+- View the timetable for a specific teacher by selecting their name from the list of available teachers.
+
+### 9. Delete Specific Class Table
+
+- Delete the timetable for a specific class or batch. Choose the batch to delete its timetable.
+
+### 10. Reset All Data
+
+- Reset all data in the program, including teachers, subjects, batches, and timetables. This action is irreversible.
+
+### 11. End Display
+
+- To exit the program, click on this option. It will display a closing message and exit the application.
+
+## Usage
+
+1. Clone this GitHub repository to your local machine:
+
+   ```bash
+   git clone https://github.com/your-username/timetable-management.git
+Navigate to the project directory:
 
 bash
 Copy code
-git clone https://github.com/your-username/cashier-app.git
-Navigate to the Project Directory:
+cd timetable-management
+Run the program:
 
 bash
 Copy code
-cd cashier-app
-Install Dependencies:
+python timetable_management.py
+You will be presented with the main menu, where you can choose from the available features.
 
-bash
-Copy code
-pip install -r requirements.txt
-Database Setup:
-
-Create a local or remote database and update the database configuration in the application code.
-Run the Application:
-
-bash
-Copy code
-python app.py
-Access the Application:
-Open a web browser and go to http://localhost:5000 to access the Cashier App.
-
-Usage
-1. Point of Sale
-Log in with your credentials.
-Use the product search feature to find items.
-Add products to the cart.
-Apply discounts if applicable.
-Choose the payment method and complete the transaction.
-Generate a receipt for the customer.
-2. Inventory Management
-Access the inventory management section.
-Add, edit, or delete products.
-Update stock levels.
-Organize products into categories for better organization.
-3. Sales Reporting
-Access the sales reporting section.
-View sales history.
-Generate sales reports with various filters.
-Export reports for further analysis.
-4. User Management
-Manage user accounts and roles.
-Create, edit, or delete user profiles.
-Ensure secure user authentication.
 Contributions
-Contributions to this project are welcome and encouraged! If you have ideas for improvements, bug fixes, or additional features, please consider contributing. You can contribute by:
+Contributions to this project are highly encouraged! If you have ideas for further improvements, new features, or bug fixes, please consider submitting a pull request or opening an issue on this GitHub repository.
 
-Forking the repository.
-Creating a new branch for your contributions.
-Making changes and improvements.
-Opening pull requests.
-If you have any questions or encounter issues, please feel free to open an issue on the GitHub repository.
+If you have any questions or encounter any issues, please don't hesitate to reach out.
 
-Thank you for using the Cashier App and for your contributions to make it even better!
-
-This README file combines all the information related to the Cashier App project, including features, installation instructions, usage guide, and contributions. Replace "https://github.com/your-username/cashier-app.git" with the actual URL of your GitHub repository.
+Thank you for your interest in the Timetable Management System project! Enjoy the enhanced features and efficient class management.
